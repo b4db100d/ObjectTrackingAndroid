@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "C:\\Users\\AXH5QE3\\OpenCV-android-sdk\\samples\\face-detection\\jni\\Android.mk",
+    "C:\\Users\\AXH5QE3\\OpenCV-android-sdk\\samples\\face-detection\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\AXH5QE3\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\AXH5QE3\\OpenCV-android-sdk\\samples\\face-detection\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\AXH5QE3\\OpenCV-android-sdk\\samples\\face-detection\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dC:/Users/AXH5QE3/AndroidStudioProjects/face-detection/openCVSamplefacedetection/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\AXH5QE3\\AndroidStudioProjects\\face-detection\\openCVSamplefacedetection\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "detection_based_tracker-release-arm64-v8a": {
+      "buildCommand": "C:\\Users\\AXH5QE3\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\AXH5QE3\\OpenCV-android-sdk\\samples\\face-detection\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\AXH5QE3\\OpenCV-android-sdk\\samples\\face-detection\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dC:/Users/AXH5QE3/AndroidStudioProjects/face-detection/openCVSamplefacedetection/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\AXH5QE3\\AndroidStudioProjects\\face-detection\\openCVSamplefacedetection\\build\\intermediates\\ndkBuild\\release\\lib C:/Users/AXH5QE3/AndroidStudioProjects/face-detection/openCVSamplefacedetection/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libdetection_based_tracker.so",
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "detection_based_tracker",
+      "files": [
+        {
+          "src": "C:\\Users\\AXH5QE3\\OpenCV-android-sdk\\samples\\face-detection\\jni\\DetectionBasedTracker_jni.cpp",
+          "flags": "\"-gcc-toolchain\" \"C:/Users/AXH5QE3/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"aarch64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fpic\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-IC:/Users/AXH5QE3/OpenCV-android-sdk/sdk/native/jni/include/opencv\" \"-IC:/Users/AXH5QE3/OpenCV-android-sdk/sdk/native/jni/include\" \"-IC:/Users/AXH5QE3/OpenCV-android-sdk/samples/face-detection/jni\" \"-IC:/Users/AXH5QE3/AppData/Local/Android/Sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-IC:/Users/AXH5QE3/AppData/Local/Android/Sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include\" \"-IC:/Users/AXH5QE3/AppData/Local/Android/Sdk/ndk-bundle/build//../sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-IC:/Users/AXH5QE3/OpenCV-android-sdk/samples/face-detection/jni\" \"-frtti\" \"-fexceptions\" \"-DANDROID\" \"-fPIC\" \"-DANDROID\" \"-fsigned-char\" \"-D__ANDROID_API__\u003d21\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"C:/Users/AXH5QE3/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot\" \"-isystem\" \"C:/Users/AXH5QE3/AppData/Local/Android/Sdk/ndk-bundle/build//../sysroot/usr/include/aarch64-linux-android\""
+        }
+      ],
+      "output": "C:\\Users\\AXH5QE3\\AndroidStudioProjects\\face-detection\\openCVSamplefacedetection\\build\\intermediates\\ndkBuild\\release\\obj\\local\\arm64-v8a\\libdetection_based_tracker.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {
+      "cppCompilerExecutable": "C:\\Users\\AXH5QE3\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

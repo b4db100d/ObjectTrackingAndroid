@@ -1,0 +1,17 @@
+Executable : C:\Users\AXH5QE3\AppData\Local\Android\Sdk\ndk-bundle\ndk-build.cmd
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=C:\Users\AXH5QE3\OpenCV-android-sdk\samples\face-detection\jni\Android.mk
+NDK_APPLICATION_MK=C:\Users\AXH5QE3\OpenCV-android-sdk\samples\face-detection\jni\Application.mk
+APP_ABI=armeabi
+NDK_ALL_ABIS=armeabi
+NDK_DEBUG=0
+APP_PLATFORM=android-14
+NDK_OUT=C:/Users/AXH5QE3/AndroidStudioProjects/face-detection/openCVSamplefacedetection/build/intermediates/ndkBuild/release/obj
+NDK_LIBS_OUT=C:\Users\AXH5QE3\AndroidStudioProjects\face-detection\openCVSamplefacedetection\build\intermediates\ndkBuild\release\lib
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+

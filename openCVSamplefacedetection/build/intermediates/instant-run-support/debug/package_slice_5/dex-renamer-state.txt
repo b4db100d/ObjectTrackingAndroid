@@ -1,0 +1,4 @@
+#Thu Apr 12 01:14:39 EDT 2018
+base.0=C\:\\Users\\AXH5QE3\\AndroidStudioProjects\\face-detection\\openCVSamplefacedetection\\build\\intermediates\\transforms\\dexMerger\\debug\\24
+path.0=classes.dex
+renamed.0=classes.dex
